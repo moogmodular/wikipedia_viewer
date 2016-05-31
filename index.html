@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<div id="page">
+
+
+    <div class="container">
+
+        <div id="parent_div" class="row">
+
+            <div id="main_dv" class="col-md-6 col-md-offset-3">
+                <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank"><h2>Click here for a random
+                    article</h2></a>
+                <!--<img src="img/search.svg" alt="generic placeholder image">-->
+                <form>
+                    <input id="form" type="text" name="search" placeholder="Search..">
+                </form>
+
+                <h3>Click the icon to search</h3>
+                <h4>Results for: </h4><h4 id="res_test">result...</h4>
+
+            </div>
+
+            <div id="to_populate" class="col-md-8 col-md-offset-2">
+
+            </div>
+
+        </div>
+
+        <footer id="footer_load">
+        </footer>
+
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jQueryRotate.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+<!--
+
+https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=test
+
+-->
